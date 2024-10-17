@@ -336,7 +336,9 @@ The sensors listed below describe the state of the car for a few different data 
 | `car_fuel` | The percentage of fuel remaining |
 | `car_fuel_type` | List of available fuel types for the car. |
 | `car_name` | The name of the car. The manufacturer name and manufactured year are in the attributes |
-| `car_odometer` | The the value of the car odometer in meters |
+| `car_odometer` | The value of the car odometer in meters |
+| `car_range_remaining` | The range remaining for the car in meters <span class='beta'>BETA</span> |
+| `car_speed` | The speed of the car in meters per second <span class='beta'>BETA</span> |
 
 ## Cellular Provider Sensor
 The cellular provider sensor displays information about the user’s cellular service provider, such as its unique identifier and whether it allows VoIP calls on its network. `sensor.sim_1` corresponds to the physical SIM card installed and `sensor.sim_2` corresponds to the eSIM (this is only shown if the eSIM is enabled).
